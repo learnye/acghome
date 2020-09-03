@@ -1,0 +1,88 @@
+  .Migo{
+    width: 100%;
+    height: 398px;
+  }
+  .Migo>div:nth-child(2){
+    height: 340px;
+  }
+  .Migo>div:first-child,.Migo>div:first-child h4{
+    height: 58px;
+    line-height: 58px;
+  }
+    /* 小轮播箭头 */
+  .Migo .pointer{
+    width: 80px;height: 25px;
+    background-color: rgb(255, 255, 255);
+    line-height: 41px;
+    margin: auto 0;
+  }
+  .Migo .pointer>li{
+    height: 30px;
+    width: 50%;
+    float: left;
+    cursor: pointer;
+    border: 1px solid #aaa;
+    background-color: #aaa;
+  }
+  .Migo .pointer>li:first-child{
+    border-radius: 3px 0 0 3px;
+    /* 禁用 */
+    /* pointer-events: none;    */
+    background: url(../index/small_icon/left_small.png) no-repeat center center;
+  }
+  .Migo .pointer>li:first-child:hover{
+    background: url(../index/small_icon/left_small1.png) no-repeat center center;
+  }
+  .Migo .pointer>li:last-child{
+    border-radius: 0 3px 3px 0;
+    border-left: none;
+    background: url(../index/small_icon/right_small.png) no-repeat center center;
+  }
+  .Migo .pointer>li:last-child:hover{
+    background: url(../index/small_icon/right_small1.png) no-repeat center center;
+  }
+  /* 倒计时div样式 */
+  .Migo .timer{
+    width: 20%;
+    height: 100%;
+    background-color: #f1eded;
+  }
+  .Migo .small_carousel{
+    width: 78.5%;height: 100%;
+  }
+
+
+  .Migo .time{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  .Migo .time>div{
+    /* border: 1px solid red; */
+    margin: 0 5px;
+    /* padding: 5px; */
+  }
+  .Migo .time>div:first-child,.Migo .time>div:nth-child(3),.Migo .time>div:nth-child(5){
+    width: 46px;height: 46px;
+    line-height: 46px;
+    font-size: 22px;
+    background-color: rgb(109, 108, 108);
+  }
+
+  .Migo .small_carousel>ul{
+    margin: 0;
+    /* 不换行 */
+    width: 100%;
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-between;
+  }
+  .Migo .small_carousel ul>li{
+    display: inline-block;
+    height: 100%;
+    width: 24%;
+    text-align: center;
+    background-color: #fff;
+  }

@@ -1,0 +1,33 @@
+/* .homePhone>div:nth-child(2),.homePhone h4{
+    height: 58px;
+    line-height: 58px;
+}
+.homePhone .my_more{
+    background: url(../index/small_icon/youjiantou.png) no-repeat right center;
+    background-size: 20px;
+    transition: all .3s;
+}
+.homePhone .my_more:hover{
+    color: #ff6700;
+    background: url(../index/small_icon/youjiantou2.png) no-repeat right center;
+    background-size: 20px;
+}
+.homePhone .content{
+    width: 100%;
+    height: 614px;
+}
+.homePhone .content>ul{
+    width: 992px;
+    height: 100%;
+}
+.homePhone .content ul li{
+    width: 234px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 0 14px 14px;
+}
+.homePhone .resultArrImg{
+    width: 140px;height: 180px;
+    overflow: hidden;
+    margin: 0 auto;
+} */
